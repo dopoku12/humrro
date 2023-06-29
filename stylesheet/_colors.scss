@@ -1,0 +1,14 @@
+$Primary-light:#007DB7;
+$Primary-dark:#003E74;
+$Accent-light:#96C121;
+$Accent-dark:#4C9C2E;
+
+@mixin sBtns($size,$weight){
+    font-size: $size;
+    font-weight:$weight;
+}
+
+@mixin headers($size,$height){
+    font-size: $size;
+    line-height: $height;
+}

@@ -1,0 +1,47 @@
+@import 'colors';
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=Open+Sans:ital,wght@1,300&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow Condensed', sans-serif, 'Bellefair', serif;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 10px;
+    
+input{
+    margin: 10px;
+}    
+textarea{
+    margin: 10px;
+}
+}
+
+t
+.card{
+    
+    width: 70%;
+}
+
+    h1{
+        @include headers(36px,42px)
+    }
+
+    h2{
+        @include headers(36px,42px)
+    }
+
+    button{
+        background-color: $Accent-light;
+        @include sBtns(12px,13px)
+        
+    }
